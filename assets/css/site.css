@@ -80,3 +80,44 @@ a.link-container div:hover{
     float:left;
     width: 3 em;
 }
+
+/* tables */
+.rank-table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    border:none;
+}
+
+
+.rank-table th,td{
+    background-position: 0 0;
+    background-size: 100% 100%;
+    transition: all .25s ease-in;
+    width:25%;
+    border:none !important;/*TODO force correct load order*/
+    border-color: darkgray;
+}
+
+.rank-table td{
+    background-color:darkgray;
+}
+
+.rank-table th{
+    border-bottom: 2px solid white;
+}
+
+.rank-table .exp-low{
+    background-image: linear-gradient(to left, transparent, transparent 75%, #2fd08d 75%, #2fd08d);
+}
+
+.rank-table .exp-mid{
+    background-image: linear-gradient(to left, transparent, transparent 50%, #2fd08d 50%, #2fd08d);
+}
+
+.rank-table .exp-high{
+    background-image: linear-gradient(to left, transparent, transparent 25%, #2fd08d 25%, #2fd08d);
+}
+
+.rank-table .exp-vhigh{
+    background-image: linear-gradient(to left, transparent, transparent 0%, #2fd08d 0%, #2fd08d);
+}
