@@ -1,3 +1,24 @@
+/* Theme */
+.project-state-revision{
+    background-color: red;
+    font-size: xx-large;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-state-progress{
+    background-color: #c3c34a;
+    font-size: xx-large;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
 /* General */
 
 *{
@@ -81,6 +102,31 @@ a.link-container div:hover{
     width: 3 em;
 }
 
+.project-header{
+    overflow: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-header span{
+    font-size: xx-large;
+}
+
+.img-box{
+    text-align: center;
+}
+
+.img-box img{
+    max-width: 128px;
+    height:auto;
+    margin:10px;
+}
+
+.img-box span{
+    margin-left: 10%;
+    font-size: x-large;
+}
+
 /* tables */
 .rank-table{
     table-layout: fixed;
@@ -88,6 +134,9 @@ a.link-container div:hover{
     border:none;
 }
 
+.rank-table thead{
+    border-bottom: 2px solid white;
+}
 
 .rank-table th,td{
     background-position: 0 0;
@@ -107,17 +156,41 @@ a.link-container div:hover{
 }
 
 .rank-table .exp-low{
-    background-image: linear-gradient(to left, transparent, transparent 75%, #2fd08d 75%, #2fd08d);
+    background-image: linear-gradient(to left, transparent, transparent 70%, #2fd08d 75%, #2fd08d);
 }
 
 .rank-table .exp-mid{
-    background-image: linear-gradient(to left, transparent, transparent 50%, #2fd08d 50%, #2fd08d);
+    background-image: linear-gradient(to left, transparent, transparent 45%, #2fd08d 50%, #2fd08d);
 }
 
 .rank-table .exp-high{
-    background-image: linear-gradient(to left, transparent, transparent 25%, #2fd08d 25%, #2fd08d);
+    background-image: linear-gradient(to left, transparent, transparent 20%, #2fd08d 25%, #2fd08d);
 }
 
 .rank-table .exp-vhigh{
     background-image: linear-gradient(to left, transparent, transparent 0%, #2fd08d 0%, #2fd08d);
+}
+
+/* Controls */
+
+.getit-link{
+    font-size: x-large;
+    background-color: green;
+    border: 3px groove black;    
+    float: right;
+    color:white;
+    text-decoration: none;
+    width:100px;
+}
+
+.getit-link:visited{
+    color:white;
+}
+
+@media only screen and (max-width: 805px){
+    .getit-link{
+        width:100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
