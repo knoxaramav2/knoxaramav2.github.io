@@ -17,7 +17,9 @@
     margin-bottom: 40px;
 }
 
-
+.bg-white{
+    background-color: white;
+}
 
 /* General */
 
@@ -61,8 +63,21 @@ p{
     width:100%;
 }
 
+.fill-content{
+    display:contents;
+}
+
 /* front page */
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+#front-page-header{
+    height:200px;
+}
+
+#front-page-header div img{
+    border-radius: 100% 0 0 100%;
+}
+
 a.link-container{
     color:black;
     text-decoration: none;
@@ -112,6 +127,11 @@ a.link-container div:hover{
     font-size: xx-large;
 }
 
+#description-box{
+    background-color: white;
+
+}
+
 .img-box{
     text-align: center;
 }
@@ -125,6 +145,11 @@ a.link-container div:hover{
 .img-box span{
     margin-left: 10%;
     font-size: x-large;
+}
+
+.img-circle{
+    border-radius: 100%;
+    height: 100%;
 }
 
 /* tables */
