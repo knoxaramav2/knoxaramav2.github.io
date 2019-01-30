@@ -44,6 +44,10 @@ p{
     margin:0;
 }
 
+p.space{
+    height:1pc;
+}
+
 .page-content{
     background-color: darkgrey;
 }
@@ -107,7 +111,7 @@ a.link-container div:hover{
     text-align: center;
     line-height: 3em;
     height: 3em;
-    border-radius: 40px 7px;
+    /*border-radius: 40px 7px;*/
     min-width: 215px;
 } 
 
@@ -129,7 +133,7 @@ a.link-container div:hover{
 
 #description-box{
     background-color: white;
-
+    padding-top: 20px;
 }
 
 .img-box{
