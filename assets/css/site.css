@@ -37,11 +37,12 @@ a{
 }
 
 p{
-    background-color: white;
     text-align: center;
     font-size: large;
-    color: hsl(0, 0%, 43%);
-    margin:0;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: monospace, sans-serif;
 }
 
 p.space{
@@ -127,8 +128,16 @@ a.link-container div:hover{
     margin-bottom: 40px;
 }
 
+.project-header div{
+    width:100%;
+}
+
 .project-header span{
     font-size: xx-large;
+}
+
+.paragraph-body{
+    background-color:white;
 }
 
 #description-box{
@@ -137,11 +146,11 @@ a.link-container div:hover{
 }
 
 .img-box{
-    text-align: center;
+    text-align: left;
 }
 
 .img-box img{
-    max-width: 128px;
+    max-width: 64px;
     height:auto;
     margin:10px;
 }
@@ -210,6 +219,7 @@ a.link-container div:hover{
     color:white;
     text-decoration: none;
     width:100px;
+    text-align: center;
 }
 
 .getit-link:visited{
