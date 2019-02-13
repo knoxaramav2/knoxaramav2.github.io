@@ -36,6 +36,10 @@ a{
     text-decoration: none;
 }
 
+li{
+    font-family: monospace, sans-serif;
+}
+
 p{
     text-align: center;
     font-size: large;
@@ -140,6 +144,10 @@ a.link-container div:hover{
     background-color:white;
 }
 
+.paragraph-body h2{
+    text-align: center;
+}
+
 #description-box{
     background-color: white;
     padding-top: 20px;
@@ -213,8 +221,7 @@ a.link-container div:hover{
 
 .getit-link{
     font-size: x-large;
-    background-color: green;
-    border: 3px groove black;    
+    background-color: gray;
     float: right;
     color:white;
     text-decoration: none;
